@@ -41,7 +41,7 @@
 - [📞 Contact](https://t.me/FlashProSpeed)
 ```
 ##Credits
-- [DATE_TIME Telegram userbot by xsvshacker] (https://github.com/Randi356/CountdownTimer-Randi356)
+- [DATE_TIME Telegram userbot by xsvshacker] (https://github.com/Randi356/CountdownTimer-Xsvshacker)
 ```
 ## Read GNU AFFERO GENERAL PUBLIC LICENSE: 
 [LICENSE](https://github.com/Randi356/DATE_TIME_USERBOT-mod/blob/main/LICENSE)
