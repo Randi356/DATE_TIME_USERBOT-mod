@@ -4,6 +4,7 @@
 # your can edit photo link telegraph
 
 image_mod = [
-"rendy.jpg"
+"rendy.jpg",
+"image.jpg"
 
 ]
