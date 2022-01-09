@@ -31,6 +31,7 @@ async def main_mod():
             if Date_Time_Userbot_mod.is_connected:
                 Quotes_mod = random.choice(quotes_mod)
                 Emojis_mod = random.choice(emojis_mod)
+                Image_mod = random.choice(image_mod)
                 TimeZone_mod = datetime.datetime.now(pytz.timezone(f"{Time_Zone}"))
                 Time_mod = TimeZone_mod.strftime("%I:%M %p")
                 Date_mod = TimeZone_mod.strftime("%b %d") 
@@ -42,6 +43,7 @@ async def main_mod():
                 Image_edit_mod.text((690, 550), Image_text_mod, (0, 255, 255), font = Image_font_mod)
                 Image_mod.save("Image_final_mod.jpg")
                 Image_mod.save("rendy_mod.jpg")
+                Image_mod.save("{Image_mod}")
                 await Date_Time_Userbot_mod.update_profile(bio = f"{Emojis_mod} {Quotes_mod}" , last_name = f"| ⏰ {Time_mod} | 📅 {Date_mod}")
                 await Date_Time_Userbot_mod.set_profile_photo(photo="Image_final_mod.jpg")
                 await Date.Time_Userbot_mod.set_profile_photo(photo="{Image_mod}")
