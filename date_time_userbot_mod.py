@@ -42,7 +42,6 @@ async def main_mod():
                 Image_edit_mod.text((690, 550), Image_text_mod, (0, 255, 255), font = Image_font_mod)
                 Image_mod.save("Image_final_mod.jpg")
                 Image_mod.save("rendy_mod.jpg")
-     
                 await Date_Time_Userbot_mod.update_profile(bio = f"{Emojis_mod} {Quotes_mod}" , last_name = f"| ⏰ {Time_mod} | 📅 {Date_mod}")
                 await Date_Time_Userbot_mod.set_profile_photo(photo="Image_final_mod.jpg")
                 await Date.Time_Userbot_mod.set_profile_photo(photo="{Image_mod}")
