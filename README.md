@@ -30,7 +30,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Randi356/DATE_TIME_USERBOT-mod)
     
 ## Credits
-- [Xsvshacker](https://github.com/Randi356)
+- [Rendy](https://github.com/Randi356)
 - [Thakshaka](https://t.me/thakshakar)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -41,7 +41,7 @@
 - [📞 Contact](https://t.me/FlashProSpeed)
 ```
 ##Credits
-- [DATE_TIME Telegram userbot by xsvshacker] (https://github.com/Randi356/CountdownTimer-Xsvshacker)
+- [DATE_TIME Telegram userbot by Rendy] (https://github.com/Randi356/CountdownTimer-Xsvshacker)
 ```
 ## Read GNU AFFERO GENERAL PUBLIC LICENSE: 
 [LICENSE](https://github.com/Randi356/DATE_TIME_USERBOT-mod/blob/main/LICENSE)
