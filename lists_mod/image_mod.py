@@ -3,5 +3,7 @@
 # please remove credits⚠️
 # your can edit photo link telegraph
 
-photo_mod = [
-""
+image_mod = [
+"rendy.jpg"
+
+]
