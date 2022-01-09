@@ -44,5 +44,8 @@ quotes_mod = [
 "The meaning of life is to give life meaning.",
 "When words fail, music speaks.",
 "Embrace the glorious mess that you are.",
+"Afk Show Live Bokep.",
+"Don't PM you blocked fucking",
+"Join @NaraxMusic",
 "I have nothing to lose but something to gain."
 ]
