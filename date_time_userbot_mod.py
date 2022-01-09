@@ -8,6 +8,8 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from lists_mod.quotes_mod import *
 from lists_mod.emojis_mod import *
+from lists_mod.image_mod import *
+from lists_mod.image import *
 from PIL import Image, ImageDraw, ImageFont
 import datetime
 import pytz
@@ -33,13 +35,17 @@ async def main_mod():
                 Time_mod = TimeZone_mod.strftime("%I:%M %p")
                 Date_mod = TimeZone_mod.strftime("%b %d") 
                 Image_mod = Image.open("image.jpg")
+                Image_mod = Image.open("rendy.jpg")
                 Image_font_mod = ImageFont.truetype("ds-digit.ttf", 360)
                 Image_text_mod = f"{Time_mod}"
                 Image_edit_mod = ImageDraw.Draw(Image_mod)
                 Image_edit_mod.text((690, 550), Image_text_mod, (0, 255, 255), font = Image_font_mod)
                 Image_mod.save("Image_final_mod.jpg")
+                Image_mod.save("rendy_mod.jpg")
+     
                 await Date_Time_Userbot_mod.update_profile(bio = f"{Emojis_mod} {Quotes_mod}" , last_name = f"| ⏰ {Time_mod} | 📅 {Date_mod}")
                 await Date_Time_Userbot_mod.set_profile_photo(photo="Image_final_mod.jpg")
+                await Date.Time_Userbot_mod.set_profile_photo(photo="{Image_mod}")
                 me = await Date_Time_Userbot_mod.get_me()
                 photos = await Date_Time_Userbot_mod.get_profile_photos("me")
                 try:
